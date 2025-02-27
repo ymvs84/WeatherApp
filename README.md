@@ -23,7 +23,7 @@ Una aplicación de escritorio para consultar el clima actual de una ciudad usand
 
 ## Pruebas
 Desde el directorio donde has descargado los archivos, ejecuta las pruebas unitarias con:  
-`pytest test/test_weather.py -v`
+`pytest test_weather.py -v`
 
 ## Conversión a .exe
 1. Instala PyInstaller: `pip install pyinstaller`
