@@ -22,10 +22,10 @@ Una aplicación de escritorio para consultar el clima actual de una ciudad usand
 - Si hay un error (ciudad no encontrada o sin conexión), aparecerá una ventana emergente.
 
 ## Pruebas
-Desde el directorio `C:\Users\yms84\OneDrive\Yago\DAM\2 Curso\Desarrollo de Interfaces\Ejercicios\src\ProyectoDI`, ejecuta las pruebas unitarias con:  
+Desde el directorio donde has descargado los archivos, ejecuta las pruebas unitarias con:  
 `pytest test/test_weather.py -v`
 
 ## Conversión a .exe
 1. Instala PyInstaller: `pip install pyinstaller`
-2. Desde el directorio `ProyectoDI/`, ejecuta: `pyinstaller --onefile WeatherApp.py`
+2. Desde el directorio `ProyectoDI/`, ejecuta: `pyinstaller --onefile --windowed WeatherApp.py`
 3. El archivo .exe estará en la carpeta `dist/`.
