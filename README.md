@@ -9,7 +9,7 @@ Una aplicación de escritorio para consultar el clima actual de una ciudad usand
 - pytest (`pip install pytest pytest-qt`)
 
 ## Instalación
-1. Clona el repositorio o descarga los archivos en `C:\Users\yms84\OneDrive\Yago\DAM\2 Curso\Desarrollo de Interfaces\Ejercicios\src\ProyectoDI`.
+1. Clona el repositorio o descarga los archivos https://github.com/ymvs84/WeatherApp
 2. Instala las dependencias: `pip install -r requirements.txt`
 3. Obtén una clave API gratuita en [OpenWeatherMap](https://openweathermap.org/) y reemplaza `TU_CLAVE_API_AQUÍ` en `WeatherApp.py`.
 4. Ejecuta la aplicación desde el directorio `ProyectoDI/` con: `python WeatherApp.py`
