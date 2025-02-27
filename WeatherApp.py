@@ -152,7 +152,7 @@ class WeatherApp(QMainWindow):
         self.favorites_list.itemClicked.connect(self.load_favorite_weather)
 
         # API Key
-        self.api_key = "db77de7b9dbe2ba3bdb4bdd1ced40645"  # Reemplaza con tu clave
+        self.api_key = "TU_CLAVE_API_AQUÍ"  # Reemplaza con tu clave
         self.current_city = None
 
     def get_weather(self):
